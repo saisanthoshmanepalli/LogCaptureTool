@@ -243,7 +243,7 @@ import hashlib
 import requests  # pip install requests
 
 # ---------------- OTA CONFIG ----------------
-APP_VERSION = "1.0.0"  # bump this when you release a new build
+APP_VERSION = "1.4.4"  # bump this when you release a new build
 MANIFEST_URL = "https://raw.githubusercontent.com/saisanthoshmanepalli/LogCaptureTool/main/release/manifest.json"
 
 def get_manifest():
