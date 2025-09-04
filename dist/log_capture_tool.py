@@ -433,7 +433,7 @@ def ask_tester_name():
         sys.exit(1)
 
     popup = tk.Tk()
-    popup.title("Enter Tester Name")
+    popup.title("Enter Name")
     popup.geometry("350x180")
     popup.configure(bg="#ecf0f0")
 
