@@ -243,7 +243,7 @@ import hashlib
 import requests  # pip install requests
 
 # ---------------- OTA CONFIG ----------------
-APP_VERSION = "1.4.4"  # bump this when you release a new build
+APP_VERSION = "1.4.6"  # bump this when you release a new build
 MANIFEST_URL = "https://raw.githubusercontent.com/saisanthoshmanepalli/LogCaptureTool/main/release/manifest.json"
 
 def get_manifest():
@@ -433,7 +433,7 @@ def ask_tester_name():
         sys.exit(1)
 
     popup = tk.Tk()
-    popup.title("Enter")
+    popup.title("Enter Name")
     popup.geometry("350x180")
     popup.configure(bg="#ecf0f0")
 
