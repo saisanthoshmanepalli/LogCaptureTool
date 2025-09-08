@@ -32,10 +32,13 @@ def get_manifest():
 def check_for_update(root):
     manifest = get_manifest()
     if not manifest:
+        # optionally show a non-blocking toast or print — keep silent to avoid annoying users
+        print("[OTA] No manifest fetched.")
         return
     latest_version = manifest["version"]
     notes = manifest.get("notes", "")
     if latest_version == APP_VERSION:
+        messagebox.showinfo("No Update", f"You are already on the latest version ({APP_VERSION}).")
         return
     if messagebox.askyesno(
         "Update Available",
@@ -96,7 +99,11 @@ def do_update(root, manifest):
             d = os.path.join(current_dir, item)
             if os.path.isdir(s):
                 if os.path.exists(d):
-                    shutil.rmtree(d)
+                    try:
+                        shutil.rmtree(d)
+                    except Exception:
+                        # if failed to remove, try copying over
+                        pass
                 shutil.copytree(s, d)
             else:
                 shutil.copy2(s, d)
@@ -114,7 +121,6 @@ def do_update(root, manifest):
         messagebox.showerror("Update Failed", f"Error during update:\n{e}")
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
-
 
 
 # ---------------- iOS TOOLS ----------------
@@ -177,8 +183,16 @@ class LogCaptureApp:
         self.root.geometry("900x700")
         self.root.configure(bg="#ecf0f1")
 
-        tk.Label(root, text=f"Tester: {tester_name} | Feature: {feature_name}",
-                 font=("Arial", 16, "bold"), bg="#ecf0f1").pack(pady=10)
+        top_frame = tk.Frame(root, bg="#ecf0f1")
+        top_frame.pack(fill="x", pady=10)
+        tk.Label(top_frame, text=f"Tester: {tester_name} | Feature: {feature_name}",
+                 font=("Arial", 16, "bold"), bg="#ecf0f1").pack(side="left", padx=10)
+
+        # Manual update check button
+        check_btn = tk.Button(top_frame, text="Check for Updates", width=16,
+                              bg="#2980b9", fg="#ffffff",
+                              command=lambda: threading.Thread(target=check_for_update, args=(self.root,), daemon=True).start())
+        check_btn.pack(side="right", padx=10)
 
         self.platforms = ["Android", "iOS", "Amazon", "WebGL", "Standalone"]
 
@@ -234,11 +248,15 @@ class LogCaptureApp:
             self.running_flags[platform] = False
             self.line_counters[platform] = 0
 
+        # start monitors
         self.update_status_labels()
         self.update_dashboard()
         threading.Thread(target=self.monitor_loop, daemon=True).start()
         self.last_no_device_time = None
         threading.Thread(target=self.device_disconnect_monitor, daemon=True).start()
+
+        # Run an automatic update check shortly after UI loads (non-blocking)
+        self.root.after(2000, lambda: threading.Thread(target=check_for_update, args=(self.root,), daemon=True).start())
 
     # ---------------- LOG VIEWER WITH DOWNLOAD ----------------
     def view_logs_popup(self, platform):
