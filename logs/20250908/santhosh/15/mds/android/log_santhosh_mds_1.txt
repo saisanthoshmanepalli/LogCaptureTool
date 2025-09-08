@@ -1,0 +1,962 @@
+--------- beginning of main
+09-08 15:48:04.593  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.432657 msecs
+09-08 15:48:04.614  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.92.234:5353
+09-08 15:48:04.696  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25220, isSameBssidAndFreq true
+09-08 15:48:04.697  1734  2959 I SemWifiLinkQualityMonitor: Link Qos query: inf. ms / 0 Mbps
+--------- beginning of system
+09-08 15:48:04.795  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:04.938  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41040] accel_sample [-0.179, -0.039,  9.974] 1487014584374929
+09-08 15:48:05.145  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:05.414  1060  1060 D io_stats: !@   8,0 r 3407413 95918721 w 4186512 72305072 d 956806 153610400 f 0 367819 iot 3550708 0 th 0 0 0 pt 0 inp 0 0 192494.820
+09-08 15:48:05.414  1060  1060 D io_stats: !@ Read_top(KB): sh(12613) 16
+09-08 15:48:05.423  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.159:5353
+09-08 15:48:05.425  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.92.83:5353
+09-08 15:48:05.495  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:05.578  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.019468177]
+09-08 15:48:05.578  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.77407515]
+09-08 15:48:05.578  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8096604]
+09-08 15:48:05.579  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.113906 msecs
+09-08 15:48:05.581  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.02724 msecs
+09-08 15:48:05.584  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 3.009011 msecs
+09-08 15:48:05.646  1734  2766 D ActivityManager:MARs: com.samsung.android.sm.devicesecurity is core app
+09-08 15:48:05.646  1734  2766 D ActivityManager: freezing 10001 com.samsung.android.sm.devicesecurity
+09-08 15:48:05.658  1734  2766 D ActivityManager: freezing 31985 com.google.android.apps.turbo
+09-08 15:48:05.719  1383  1423 D BatteryDump: wait_for_battery_event : occurred : change@/devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery 
+09-08 15:48:05.731  1383  1423 E BatteryDump: !@new_battery_dump : 4018,707,1500,1712,70,310,308,322,0,305,326,900,0,Charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,10800,0x4,0x10000,0x0,0000,0000,00000000,0,0,0,0,42,3980,6933,990,0,
+09-08 15:48:05.734  1383  1383 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 333
+09-08 15:48:05.737  1734  2928 D BatteryService: Sending ACTION_BATTERY_CHANGED: level:70, status:2, health:2, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:0, voltage:4018, temperature:310, online:19, current_avg:55, ps:false, hvc:false, capacity:280000, current_event:0x4, current_now:611, mcc:0, mcv:0, cc:5040000, present:true, scale:100, technology:Li-ion
+09-08 15:48:05.740  1734  2820 D MotionRecognitionService: [SAR]  onReceive : ACTION_BATTERY_CHANGED, Plugged: 1
+09-08 15:48:05.741  1734  1734 D PhoneWindowManagerExt: ACTION_BATTERY_CHANGED - Level=70, status=2
+09-08 15:48:05.741  1734  2993 I DeviceBatteryInfoService: action: android.intent.action.BATTERY_CHANGED
+09-08 15:48:05.741  1734  2993 I DeviceBatteryInfoService: phone battery level: 70
+09-08 15:48:05.741  1734  2993 I DeviceBatteryInfoService: phone battery status: 2
+09-08 15:48:05.742  1734  1734 D AdaptiveBrightnessLongtermModelBuilder: Received android.intent.action.BATTERY_CHANGED
+09-08 15:48:05.742  1734  1734 D SemWifiApBroadcastReceiver: Received : android.intent.action.BATTERY_CHANGED
+09-08 15:48:05.743  3042  3042 D SemBigDataInfoController: Intent: android.intent.action.BATTERY_CHANGED
+09-08 15:48:05.746  3058  3058 I PowerUI : mBootCompleted = true |  mFullyConnected = true
+09-08 15:48:05.746  3058  3058 I PowerUI : BATTERY_HEALTH_CHECK extraHealth=2 mBatteryMiscEvent=65536
+09-08 15:48:05.746  3058  3058 W PowerUI : Plug reason
+09-08 15:48:05.746  3058  3058 W PowerUI : Skip charging animation - by plug status
+09-08 15:48:05.746  3058  3058 D PowerUI : priorPlugType = 1 mPlugType = 1 priorBatteryStatus = 2 mBatteryStatus = 2
+09-08 15:48:05.746  3058  3058 W PowerUI : Plug reason
+09-08 15:48:05.746  3058  3058 W PowerUI : Skip charging sound - by plug status
+09-08 15:48:05.746  3058  3058 I PowerUI : oldMisalign : false, curMisalign : false
+09-08 15:48:05.747  3058  7139 D SecPowerUI.Notification: dismissing low battery warning: level=70
+09-08 15:48:05.747  3058  7139 D SecPowerUI.Notification: updateNotification mWarning=false mPlaySound=false
+09-08 15:48:05.747  3058  7139 D SecPowerUI.Notification: SecBatteryStatsSnapshot{batteryLevel=70, currentBatteryMode=0, chargingTime=4312000, chargingType=11, batteryHealth=2, automaticTestMode=false, isHiccupState=false}
+09-08 15:48:05.747  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:05.748  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:05.748  3058  3058 D PowerUI : Battery swelling mode - priorBatterySwellingMode = 0 mBatterySwellingMode = 0 mBatteryStatus = 2
+09-08 15:48:05.748  3058  3058 I PowerUI : mBatteryMiscEvent = 65536
+09-08 15:48:05.748  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:05.749  3058  7139 D SecPowerUI.Notification: 1. restoreScreenTimeOut - saved_value : :
+09-08 15:48:05.749  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:05.749  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:05.750  3058  7139 E SecPowerUI.Notification: no saved value, so we do nothing !!
+09-08 15:48:05.750  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:05.750  3058  3058 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-08 15:48:05.750  3058  3058 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED
+09-08 15:48:05.752  3058  3058 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=70, mBatteryStatus=CHARGING, mBatteryPlugType=AC, mBatteryPlugged=true, mRemainingChargeTime=4312000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=NOT_DEFINED, mBatterySwellingMode=NONE, mBatteryProtectMode=false]
+09-08 15:48:05.752  3058  3058 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-08 15:48:05.846  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:06.060  1387 10966 I sensors-hal: handle_sns_client_event:185, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.191,-0.022,9.966, ar,1, ver,11, pedo,1,e,0,i,2
+09-08 15:48:06.085  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.013906119]
+09-08 15:48:06.086  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.5637158]
+09-08 15:48:06.086  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8740903]
+09-08 15:48:06.086  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.018281 msecs
+09-08 15:48:06.088  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.617396 msecs
+09-08 15:48:06.089  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.497968 msecs
+09-08 15:48:06.196  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:06.354  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.57:5353
+09-08 15:48:06.456  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.92.250:5353
+09-08 15:48:06.545  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 241, ts=1487016200760919
+09-08 15:48:06.546  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:06.590  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.008055412]
+09-08 15:48:06.591  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.708658]
+09-08 15:48:06.591  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8340309]
+09-08 15:48:06.591  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.2875 msecs
+09-08 15:48:06.594  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.49375 msecs
+09-08 15:48:06.596  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.622031 msecs
+09-08 15:48:06.895  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:06.956  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41148] accel_sample [-0.201, -0.032,  9.973] 1487016602203054
+09-08 15:48:07.062  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.90:5353
+09-08 15:48:07.096  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0050042644]
+09-08 15:48:07.097  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6783339]
+09-08 15:48:07.098  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8909235]
+09-08 15:48:07.098  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.309115 msecs
+09-08 15:48:07.099  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:07.099  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:07.101  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 3.133229 msecs
+09-08 15:48:07.102  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:07.102  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:07.103  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.354635 msecs
+09-08 15:48:07.114  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=0FBBE9_6, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0
+09-08 15:48:07.130  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x0, addressType=1, address=2B8B09_6, primaryPhy=1, secondaryPhy=1, advertisingSid=0x4, txPower=127, rssi=-90, periodicAdvInt=0x0
+09-08 15:48:07.168  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:07.169  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:07.245  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:07.319  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:07.417  1060  1060 D io_stats: !@   8,0 r 3407413 95918721 w 4186633 72306552 d 956806 153610400 f 0 367819 iot 3550752 0 th 0 0 0 pt 0 inp 0 0 192496.823
+09-08 15:48:07.570  5051  5842 I SDHMS:D : SIOP:: AP:318 BAT:310 USB:0 CHG:323 WIFI:326 BLK:305 SUBBAT:0 SKIN:337 SKINF:335 SKINB:337 LRP:337 LRF:335 LRB:337 
+09-08 15:48:07.594  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:07.604  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.021581415]
+09-08 15:48:07.605  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.7075513]
+09-08 15:48:07.605  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.91724426]
+09-08 15:48:07.606  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.31677 msecs
+09-08 15:48:07.607  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.695104 msecs
+09-08 15:48:07.610  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.01875 msecs
+09-08 15:48:07.630  1734  3956 D FreecessController: com.google.android.apps.photos(10254) is important[!isUidIdle]
+09-08 15:48:07.630  1734  3956 D FreecessController: com.Slack(10330) is important[!isUidIdle]
+09-08 15:48:07.723  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25221, isSameBssidAndFreq true
+09-08 15:48:07.726  1734  2959 I SemWifiLinkQualityMonitor: Link Qos Query: 0.024 ms / 332.699 Mbps (413 / 0.005 / 1.000)
+09-08 15:48:07.945  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:08.295  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:08.530  1734  2263 E Watchdog: !@Sync: 6414 heap: 94 / 114 FD: 1119 [2025-09-08 15:48:08.530]
+09-08 15:48:08.577  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.008640497]
+09-08 15:48:08.578  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.52769184]
+09-08 15:48:08.578  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7399011]
+09-08 15:48:08.578  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.406355 msecs
+09-08 15:48:08.581  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.895364 msecs
+09-08 15:48:08.584  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.903073 msecs
+09-08 15:48:08.645  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:08.974  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41256] accel_sample [-0.192, -0.035,  9.973] 1487018620031179
+09-08 15:48:08.996  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:09.085  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009856843]
+09-08 15:48:09.085  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.53386766]
+09-08 15:48:09.086  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.57622457]
+09-08 15:48:09.086  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.015833 msecs
+09-08 15:48:09.087  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.445937 msecs
+09-08 15:48:09.089  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.681979 msecs
+09-08 15:48:09.129  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.57:5353
+09-08 15:48:09.131  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.93.121:5353
+09-08 15:48:09.132  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 1 answers, 0 authority, 0 additional from /10.102.93.150:5353
+09-08 15:48:09.345  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:09.419  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:0(12025) 1464 android.hardwar(1383) 8 .devicesecurity(10001) 4
+09-08 15:48:09.590  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0092796935]
+09-08 15:48:09.591  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.84129703]
+09-08 15:48:09.591  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.5834375]
+09-08 15:48:09.592  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.695156 msecs
+09-08 15:48:09.594  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.751667 msecs
+09-08 15:48:09.597  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.847448 msecs
+09-08 15:48:09.630  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.92.165:5353
+09-08 15:48:09.695  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:10.045  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:10.097  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.024039885]
+09-08 15:48:10.098  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.33445147]
+09-08 15:48:10.099  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.71865106]
+09-08 15:48:10.099  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.826094 msecs
+09-08 15:48:10.101  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.258281 msecs
+09-08 15:48:10.103  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.470885 msecs
+09-08 15:48:10.157  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.92.171:5353
+09-08 15:48:10.169  1734  2906 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+09-08 15:48:10.171  1734  2906 D DeviceStorageMonitorService: Available File Node Number is [13413001]
+09-08 15:48:10.171  1734  2906 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+09-08 15:48:10.338  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.164:5353
+09-08 15:48:10.396  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:10.553  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.92.84:5353
+09-08 15:48:10.605  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.007843515]
+09-08 15:48:10.606  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.8905034]
+09-08 15:48:10.606  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8558078]
+09-08 15:48:10.607  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.057656 msecs
+09-08 15:48:10.611  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.891927 msecs
+09-08 15:48:10.613  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.161979 msecs
+09-08 15:48:10.745  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25222, isSameBssidAndFreq true
+09-08 15:48:10.745  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:10.749  1734  2959 I SemWifiLinkQualityMonitor: Link Qos Query: 0.023 ms / 340.647 Mbps (413 / 0.004 / 1.000)
+09-08 15:48:10.754  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:10.754  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:10.755  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:10.755  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:10.755  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:10.755  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:10.756  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:10.757  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:10.757  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:10.757  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:10.757  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:10.757  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:10.969  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:10.969  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:10.970  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:10.970  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:10.980  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=22D6AA_E, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-89, periodicAdvInt=0x0
+09-08 15:48:10.992  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41364] accel_sample [-0.198, -0.025,  9.983] 1487020637858031
+09-08 15:48:11.020  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:11.020  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:11.095  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:11.159  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.79:5353
+09-08 15:48:11.170  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:11.392  1734  3956 I NSLocationMonitor: getGPSUsingApps() called
+09-08 15:48:11.414  3949  4007 I NSLocationManager_FLP: getGPSUsingApps, NO_FREEZE={5013} / FREEZE={10215}
+09-08 15:48:11.421  1060  1060 D io_stats: !@   8,0 r 3407413 95918721 w 4186753 72308276 d 956806 153610400 f 0 367819 iot 3550784 0 th 0 0 0 pt 0 inp 0 0 192500.827
+09-08 15:48:11.424  1734  3956 I AS.AudioService: uid:10391is using audio
+09-08 15:48:11.445  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 242, ts=1487021100861469
+09-08 15:48:11.446  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:11.581  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0066166087]
+09-08 15:48:11.582  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.7312498]
+09-08 15:48:11.582  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7862088]
+09-08 15:48:11.582  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.421718 msecs
+09-08 15:48:11.584  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.562553 msecs
+09-08 15:48:11.586  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.513021 msecs
+09-08 15:48:11.678  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:11.715  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:11.715  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:11.716  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:11.716  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:11.724  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x0, addressType=1, address=2B8B09_6, primaryPhy=1, secondaryPhy=1, advertisingSid=0x4, txPower=127, rssi=-97, periodicAdvInt=0x0
+09-08 15:48:11.760  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:11.761  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:11.796  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:11.911  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:12.087  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009283]
+09-08 15:48:12.089  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.30255857]
+09-08 15:48:12.089  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.150:5353
+09-08 15:48:12.090  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.486334]
+09-08 15:48:12.090  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 3.119688 msecs
+09-08 15:48:12.093  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.345417 msecs
+09-08 15:48:12.093  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.121:5353
+09-08 15:48:12.094  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /10.102.93.92:5353
+09-08 15:48:12.095  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.285573 msecs
+09-08 15:48:12.145  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:12.399  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:12.495  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:12.517  1734  2766 D ActivityManager: freezing 25012 com.google.android.gms
+09-08 15:48:12.532  1734  2766 D ActivityManager: freezing 12000 android.process.acore
+09-08 15:48:12.596  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0064683026]
+09-08 15:48:12.597  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.5387124]
+09-08 15:48:12.597  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.9153057]
+09-08 15:48:12.597  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.338854 msecs
+09-08 15:48:12.600  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.623281 msecs
+09-08 15:48:12.602  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.379219 msecs
+09-08 15:48:12.819  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:12.819  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:12.820  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:12.821  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:12.827  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=0FBBE9_6, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-92, periodicAdvInt=0x0
+09-08 15:48:12.844  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:12.864  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:12.864  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:12.905  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.92.171:5353
+09-08 15:48:13.005  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 11 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:13.008  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 27 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:13.010  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41472] accel_sample [-0.196, -0.032,  9.973] 1487022655685948
+09-08 15:48:13.014  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:13.104  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.008650997]
+09-08 15:48:13.105  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.80804604]
+09-08 15:48:13.105  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8775997]
+09-08 15:48:13.105  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.413594 msecs
+09-08 15:48:13.108  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.545885 msecs
+09-08 15:48:13.110  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.782083 msecs
+09-08 15:48:13.195  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:13.310 18933 18933 I wpa_supplicant: Heartbeat 4419
+09-08 15:48:13.423  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:2(7801) 1724
+09-08 15:48:13.523  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.112:5353
+09-08 15:48:13.545  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:13.612  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.011953493]
+09-08 15:48:13.613  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.59642726]
+09-08 15:48:13.613  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.93095404]
+09-08 15:48:13.613  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.632657 msecs
+09-08 15:48:13.615  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.558125 msecs
+09-08 15:48:13.617  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.459479 msecs
+09-08 15:48:13.768  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25223, isSameBssidAndFreq true
+09-08 15:48:13.771  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:13.771  1734  2959 I SemWifiLinkQualityMonitor: Link Qos query: inf. ms / 0 Mbps
+09-08 15:48:13.772  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:13.772  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:13.772  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:13.774  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:13.774  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:13.774  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:13.775  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:13.775  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:13.775  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:13.895  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:14.053  8578 12565 I NearbyMediums: Found Fast Ble Advertisements :
+09-08 15:48:14.053  8578 12565 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x50 0x4f 0x59 0x42 0x11 0x32 0xbd 0xa9 0x8e 0x37 0x82 0xf5 0x7f 0xab 0x3f 0xd1 0x4e 0x3e 0x80 0x9c 0xf7 0xa5 ], deviceToken=[ 0x8a 0x96 ], rxAdvertisement=null } : 4 times.
+09-08 15:48:14.053  8578 12565 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x32 0x52 0x42 0x4e 0x11 0x32 0x6f 0xd6 0x60 0xbd 0x85 0xcd 0xbf 0x17 0xe1 0xc1 0x10 0xd0 0xf3 0x67 0xef 0xa8 ], deviceToken=[ 0xd4 0x7b ], rxAdvertisement=null } : 1 times.
+09-08 15:48:14.053  8578 12565 I NearbyMediums: Total 5 fast advertisements from 2 unique advertisers.
+09-08 15:48:14.054  8578 12565 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing, NearbyConnections.TxAdvertisement}
+09-08 15:48:14.082  1734 12620 D WifiConnectivityMonitor.DnsThread:  [|205] []
+09-08 15:48:14.084  1734  2977 D WifiConnectivityMonitor.NetworkStatsAnalyzer: DNS resultType : 0, responseTime : 205
+09-08 15:48:14.084  1734  2975 D OpenNetworkQos[4.00]: updateBssidLatestDnsResultType - result: 0
+09-08 15:48:14.084  1734  2975 D OpenNetworkQos[4.00]: updateBssidNoInternet: mBssidNoInternet = false
+09-08 15:48:14.085  1734  2975 D OpenNetworkQos[4.00]: getOpenNetworkQosNoInternetStatus: false
+09-08 15:48:14.085  1734  2975 D OpenNetworkQos[4.00]: getOpenNetworkQosScores: 0 20 20 
+09-08 15:48:14.086  1734  2975 D SettingsProvider: isChangeAllowed() : name = wifi_wcm_qos_sharing_score_summary
+09-08 15:48:14.086  1734  2975 I WifiProfileShare: network QoS data was changed (internet), updateQoSData networkType: true, qosData: false
+09-08 15:48:14.089  1734  4088 D WifiProfileShare: nearby scanning settings run
+09-08 15:48:14.089  1734  4088 D WifiProfileShare: network score provider settings enabled
+09-08 15:48:14.089  1734  4088 V WifiProfileShare.Caster: checkAndGetShareData(qos) - unavailable for this config
+09-08 15:48:14.089  1734  4088 V WifiProfileShare.Caster: checkAndGetShareData(pwd sta) - unavailable for this config
+09-08 15:48:14.090  1734  4088 V WifiProfileShare.Caster: checkAndGetShareData - there is no data
+09-08 15:48:14.246  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:14.338  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.12:5353
+09-08 15:48:14.341  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.79:5353
+09-08 15:48:14.589  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.033045676]
+09-08 15:48:14.589  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.17479064]
+09-08 15:48:14.590  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.9439895]
+09-08 15:48:14.590  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.331042 msecs
+09-08 15:48:14.592  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.668802 msecs
+09-08 15:48:14.594  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.213282 msecs
+09-08 15:48:14.595  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:14.640  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /[fe80::10f2:ceff:ffd8:ca58%wlan0]:5353
+09-08 15:48:14.641  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /10.102.93.100:5353
+09-08 15:48:14.945  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:15.028  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41580] accel_sample [-0.191, -0.027,  9.976] 1487024673513865
+09-08 15:48:15.074  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /10.102.92.197:5353
+09-08 15:48:15.096  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.01636062]
+09-08 15:48:15.096  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6248419]
+09-08 15:48:15.097  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.90286773]
+09-08 15:48:15.097  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.472344 msecs
+09-08 15:48:15.099  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.533073 msecs
+09-08 15:48:15.101  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.342917 msecs
+09-08 15:48:15.155  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.92:5353
+09-08 15:48:15.295  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:15.367  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:15.401  1387 10966 I sensors-hal: handle_sns_client_event:185, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.194,-0.031,9.992, ar,1, ver,11, pedo,1,e,0,i,2
+09-08 15:48:15.601  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.033576597]
+09-08 15:48:15.602  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.679351]
+09-08 15:48:15.602  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.88790286]
+09-08 15:48:15.602  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.174114 msecs
+09-08 15:48:15.604  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.602187 msecs
+09-08 15:48:15.606  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.633959 msecs
+09-08 15:48:15.646  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:15.675  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:15.675  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:15.677  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:15.677  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:15.686  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=0FBBE9_6, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-96, periodicAdvInt=0x0
+09-08 15:48:15.727  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:15.727  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:15.767  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 11 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:15.867  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 27 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:15.873  1383  1423 D BatteryDump: wait_for_battery_event : occurred : change@/devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery 
+09-08 15:48:15.878  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:15.886  1383  1423 E BatteryDump: !@new_battery_dump : 4022,817,1500,1712,70,312,308,326,0,305,333,900,0,Charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,10800,0x4,0x10000,0x0,0000,0000,00000000,0,0,0,0,42,3981,6935,990,0,
+09-08 15:48:15.890  1383  1383 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 337
+09-08 15:48:15.891  1734  2716 D BatteryService: Sending ACTION_BATTERY_CHANGED: level:70, status:2, health:2, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:0, voltage:4022, temperature:312, online:19, current_avg:468, ps:false, hvc:false, capacity:280000, current_event:0x4, current_now:718, mcc:0, mcv:0, cc:5040000, present:true, scale:100, technology:Li-ion
+09-08 15:48:15.894  1734  1734 D PhoneWindowManagerExt: ACTION_BATTERY_CHANGED - Level=70, status=2
+09-08 15:48:15.894  1734  2820 D MotionRecognitionService: [SAR]  onReceive : ACTION_BATTERY_CHANGED, Plugged: 1
+09-08 15:48:15.895  1734  2993 I DeviceBatteryInfoService: action: android.intent.action.BATTERY_CHANGED
+09-08 15:48:15.896  1734  1734 D AdaptiveBrightnessLongtermModelBuilder: Received android.intent.action.BATTERY_CHANGED
+09-08 15:48:15.896  1734  1734 D SemWifiApBroadcastReceiver: Received : android.intent.action.BATTERY_CHANGED
+09-08 15:48:15.896  3042  3042 D SemBigDataInfoController: Intent: android.intent.action.BATTERY_CHANGED
+09-08 15:48:15.896  1734  2993 I DeviceBatteryInfoService: phone battery level: 70
+09-08 15:48:15.896  1734  2993 I DeviceBatteryInfoService: phone battery status: 2
+09-08 15:48:15.897  3058  3058 I PowerUI : mBootCompleted = true |  mFullyConnected = true
+09-08 15:48:15.897  3058  3058 I PowerUI : BATTERY_HEALTH_CHECK extraHealth=2 mBatteryMiscEvent=65536
+09-08 15:48:15.898  3058  3058 W PowerUI : Plug reason
+09-08 15:48:15.898  3058  3058 W PowerUI : Skip charging animation - by plug status
+09-08 15:48:15.898  3058  3058 D PowerUI : priorPlugType = 1 mPlugType = 1 priorBatteryStatus = 2 mBatteryStatus = 2
+09-08 15:48:15.898  3058  3058 W PowerUI : Plug reason
+09-08 15:48:15.898  3058  3058 W PowerUI : Skip charging sound - by plug status
+09-08 15:48:15.899  3058  3058 I PowerUI : oldMisalign : false, curMisalign : false
+09-08 15:48:15.900  3058  9062 D SecPowerUI.Notification: dismissing low battery warning: level=70
+09-08 15:48:15.901  3058  9062 D SecPowerUI.Notification: updateNotification mWarning=false mPlaySound=false
+09-08 15:48:15.901  3058  9062 D SecPowerUI.Notification: SecBatteryStatsSnapshot{batteryLevel=70, currentBatteryMode=0, chargingTime=4312000, chargingType=11, batteryHealth=2, automaticTestMode=false, isHiccupState=false}
+09-08 15:48:15.901  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:15.901  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:15.901  3058  3058 D PowerUI : Battery swelling mode - priorBatterySwellingMode = 0 mBatterySwellingMode = 0 mBatteryStatus = 2
+09-08 15:48:15.901  3058  3058 I PowerUI : mBatteryMiscEvent = 65536
+09-08 15:48:15.901  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:15.902  3058  9062 D SecPowerUI.Notification: 1. restoreScreenTimeOut - saved_value : :
+09-08 15:48:15.902  3058  9062 E SecPowerUI.Notification: no saved value, so we do nothing !!
+09-08 15:48:15.902  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:15.903  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:15.903  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:15.903  3058  3058 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-08 15:48:15.903  3058  3058 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED
+09-08 15:48:15.904  3058  3058 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=70, mBatteryStatus=CHARGING, mBatteryPlugType=AC, mBatteryPlugged=true, mRemainingChargeTime=4312000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=NOT_DEFINED, mBatterySwellingMode=NONE, mBatteryProtectMode=false]
+09-08 15:48:15.904  3058  3058 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-08 15:48:15.995  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:16.107  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.05106123]
+09-08 15:48:16.109  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6448607]
+09-08 15:48:16.109  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.9202911]
+09-08 15:48:16.109  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.825885 msecs
+09-08 15:48:16.110  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.355104 msecs
+09-08 15:48:16.112  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.822969 msecs
+09-08 15:48:16.345  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 242, ts=1487026000548969
+09-08 15:48:16.345  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:16.614  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.031695627]
+09-08 15:48:16.615  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.82091236]
+09-08 15:48:16.615  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.91007125]
+09-08 15:48:16.616  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.469375 msecs
+09-08 15:48:16.618  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.889114 msecs
+09-08 15:48:16.620  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.268542 msecs
+09-08 15:48:16.695  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:16.791  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25224, isSameBssidAndFreq true
+09-08 15:48:16.794  1734  2959 I SemWifiLinkQualityMonitor: Link Qos Query: 0.046 ms / 173.039 Mbps (413 / 0.004 / 2.000)
+09-08 15:48:16.795  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:16.795  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:16.795  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:16.795  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:16.796  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:16.796  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:16.796  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:16.796  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:16.796  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:16.797  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:17.045  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41688] accel_sample [-0.194, -0.032,  9.970] 1487026691341781
+09-08 15:48:17.046  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:17.396  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:17.427  1060  1060 D io_stats: !@   8,0 r 3407413 95918721 w 4186876 72309904 d 956807 153610404 f 0 367820 iot 3550812 0 th 0 0 0 pt 0 inp 0 0 192506.834
+09-08 15:48:17.428  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:7(3911) 1584 jbd2/sda9-8(1031) 20 android.hardwar(1383) 12
+09-08 15:48:17.510  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.92.223:5353
+09-08 15:48:17.589  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.011522956]
+09-08 15:48:17.589  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.47961247]
+09-08 15:48:17.590  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.80371475]
+09-08 15:48:17.590  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.347864 msecs
+09-08 15:48:17.592  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.527656 msecs
+09-08 15:48:17.594  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.819271 msecs
+09-08 15:48:17.617  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.92.197:5353
+09-08 15:48:17.633  1734  3956 D FreecessController: com.google.android.apps.photos(10254) is important[!isUidIdle]
+09-08 15:48:17.633  1734  3956 D FreecessController: com.Slack(10330) is important[!isUidIdle]
+09-08 15:48:17.745  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:17.822  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /10.102.93.3:5353
+09-08 15:48:18.094  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:18.095  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009995605]
+09-08 15:48:18.096  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.39392152]
+09-08 15:48:18.096  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.91836524]
+09-08 15:48:18.096  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.238125 msecs
+09-08 15:48:18.098  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.723177 msecs
+09-08 15:48:18.100  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.746511 msecs
+09-08 15:48:18.123  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.93.57:5353
+09-08 15:48:18.445  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:18.601  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.014104121]
+09-08 15:48:18.602  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6093089]
+09-08 15:48:18.602  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.94251007]
+09-08 15:48:18.602  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.070885 msecs
+09-08 15:48:18.604  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.683803 msecs
+09-08 15:48:18.606  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.164896 msecs
+09-08 15:48:18.633  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.92.165:5353
+09-08 15:48:18.795  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:19.063  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41796] accel_sample [-0.190, -0.031,  9.968] 1487028709169698
+09-08 15:48:19.107  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0147297345]
+09-08 15:48:19.108  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.90176123]
+09-08 15:48:19.108  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7781355]
+09-08 15:48:19.108  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.29625 msecs
+09-08 15:48:19.110  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.544114 msecs
+09-08 15:48:19.112  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.210104 msecs
+09-08 15:48:19.141  1387  1387 I sensors-hal: set_config:65, no need to adjust sample_period_ns due to reporting_mode = 2
+09-08 15:48:19.141  1387  1387 I sensors-hal: send_sensor_config_request:576, dt=auto_brightness: convert sample_period=200000000 to batch_period=200000
+09-08 15:48:19.141  1387  1387 I sensors-hal: send_sync_sensor_request:448, send sync request
+09-08 15:48:19.141  1387  1387 I sensors-hal: send_sync_sensor_request:474, wait for notification of response
+09-08 15:48:19.143  1387 10941 I sensors-hal: ssc_conn_resp_cb:840, resp_value = 0
+09-08 15:48:19.143  1387  1387 I sensors-hal: send_sync_sensor_request:480, takes 1 ms to receive the response with 0
+09-08 15:48:19.143  1387  1387 I sensors-hal: batch:503, android.sensor.light/51, period=200000000, max_latency=0 request completed
+09-08 15:48:19.145  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:19.147  1734  5442 D SensorService: Calling activate off 51
+09-08 15:48:19.148  1387  1387 I sensors-hal: set_config:65, no need to adjust sample_period_ns due to reporting_mode = 2
+09-08 15:48:19.149  1387  1387 I sensors-hal: send_sensor_config_request:576, dt=auto_brightness: convert sample_period=250000000 to batch_period=250000
+09-08 15:48:19.149  1387  1387 I sensors-hal: send_sync_sensor_request:448, send sync request
+09-08 15:48:19.149  1387  1387 I sensors-hal: send_sync_sensor_request:474, wait for notification of response
+09-08 15:48:19.151  1387 10941 I sensors-hal: ssc_conn_resp_cb:840, resp_value = 0
+09-08 15:48:19.151  1387  1387 I sensors-hal: send_sync_sensor_request:480, takes 1 ms to receive the response with 0
+09-08 15:48:19.151  1387  1387 I sensors-hal: batch:503, android.sensor.light/51, period=250000000, max_latency=0 request completed
+09-08 15:48:19.162 11301 11301 I GameTools: OverHeatReceiver: onReceive ACTION_CONTROL_FPS_DURING_LOCK
+09-08 15:48:19.163 11301 11301 I GameTools: GosQueryUtil: bind::already bounded
+09-08 15:48:19.165 11301 11301 I GameTools: GosQueryUtil: setFPSFixed : 10
+09-08 15:48:19.166  9997 10012 I GOS:AidlService: getPermissionInfo(), callerUid: 10059
+09-08 15:48:19.167  9997 10012 I GOS:FpsController: requestFpsFixedValue(10, com.samsung.android.game.gametools)
+09-08 15:48:19.167 11301 11301 I GameTools: GosQueryUtil: setFPSFixed isSuccessful : true
+09-08 15:48:19.167 11301 11301 I GameTools: OverHeatReceiver: lockFPSWIthGOS: true
+09-08 15:48:19.168  9997  9997 I GOS:FpsController: setMinMapFps(): fps: 10
+09-08 15:48:19.169  1734  5442 D SGM:GameManager: setTargetFrameRate(), mCurrentUserId: 0, callerUserId: 0
+09-08 15:48:19.170  1521  1664 I SurfaceFlinger: DFS = 10 
+09-08 15:48:19.171  1734  5442 D SGM:DatabaseHelper: addActionLog(), tag: SET_DFS
+09-08 15:48:19.171  1734  5442 D SGM:DatabaseHelper: addActionLog(), msg: FPS: 10, successful: true
+09-08 15:48:19.178  1734  5442 D SGM:DatabaseHelper: addActionLog(), delete log data to avoid overflow, id: 15195
+09-08 15:48:19.178  1734  5442 D SGM:DatabaseHelper: addActionLog(), ret: 15695
+09-08 15:48:19.245  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 2 answers, 0 authority, 0 additional from /10.102.93.41:5353
+09-08 15:48:19.430  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4186885 72309932 d 956807 153610404 f 0 367822 iot 3550824 0 th 0 0 0 pt 0 inp 0 0 192508.836
+09-08 15:48:19.497  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:19.612  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.02159057]
+09-08 15:48:19.613  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.72868073]
+09-08 15:48:19.613  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7421591]
+09-08 15:48:19.613  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 0.911197 msecs
+09-08 15:48:19.615  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.946928 msecs
+09-08 15:48:19.617  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.352344 msecs
+09-08 15:48:19.680  1734  5442 D CustomizedBinderCallsStatsInternal: reportCpuUsage() : 1%
+09-08 15:48:19.681  1734  2281 I BinderCallsStats: Collected cpu time : 769us, collected call count : 334 for 60204 ms
+09-08 15:48:19.815  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25225, isSameBssidAndFreq true
+09-08 15:48:19.817  1734  2959 I SemWifiLinkQualityMonitor: Link Qos Query: 0.023 ms / 348.500 Mbps (413 / 0.004 / 1.000)
+09-08 15:48:19.845  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:19.964  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.93.59:5353
+09-08 15:48:20.195  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:20.545  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:20.596  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.020218406]
+09-08 15:48:20.597  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6852464]
+09-08 15:48:20.597  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8720652]
+09-08 15:48:20.598  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.488854 msecs
+09-08 15:48:20.600  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.688594 msecs
+09-08 15:48:20.601  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.08875 msecs
+09-08 15:48:20.614  1521  1521 I SurfaceFlinger: SFWD update time=192510021964633
+09-08 15:48:20.886  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.3:5353
+09-08 15:48:20.896  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:20.910  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:20.910  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:21.081  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][41904] accel_sample [-0.200, -0.030,  9.978] 1487030726997615
+09-08 15:48:21.102  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009267409]
+09-08 15:48:21.103  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.78796]
+09-08 15:48:21.103  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.88660765]
+09-08 15:48:21.103  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.006875 msecs
+09-08 15:48:21.105  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.584688 msecs
+09-08 15:48:21.107  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.40849 msecs
+09-08 15:48:21.245  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:21.432  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4187008 72311360 d 956807 153610404 f 0 367822 iot 3550856 0 th 0 0 0 pt 0 inp 0 0 192510.838
+09-08 15:48:21.433  1060  1060 D io_stats: !@ Read_top(KB): c.android.sdhms(5051) 4
+09-08 15:48:21.433  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:2(7801) 1412 kworker/u16:7(3911) 16
+09-08 15:48:21.594  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 242, ts=1487031250548969
+09-08 15:48:21.595  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:21.607  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.011532987]
+09-08 15:48:21.608  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6899958]
+09-08 15:48:21.608  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.73040724]
+09-08 15:48:21.608  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.35375 msecs
+09-08 15:48:21.611  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.223177 msecs
+09-08 15:48:21.613  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.061771 msecs
+09-08 15:48:21.945  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:22.115  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.017531367]
+09-08 15:48:22.116  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.55967104]
+09-08 15:48:22.116  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.13339429]
+09-08 15:48:22.116  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.261094 msecs
+09-08 15:48:22.118  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.711667 msecs
+09-08 15:48:22.119  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.315521 msecs
+09-08 15:48:22.297  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:22.377  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:22.377  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:22.378  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:22.378  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:22.390  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=22D6AA_E, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-90, periodicAdvInt=0x0
+09-08 15:48:22.428  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:22.428  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:22.579  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:22.621  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.025678955]
+09-08 15:48:22.621  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.40922356]
+09-08 15:48:22.622  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.55273056]
+09-08 15:48:22.622  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.238854 msecs
+09-08 15:48:22.624  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.733489 msecs
+09-08 15:48:22.625  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.594844 msecs
+09-08 15:48:22.645  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:22.734  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.151:5353
+09-08 15:48:22.840  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.59:5353
+09-08 15:48:22.850  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25226, isSameBssidAndFreq true
+09-08 15:48:22.856  1734  2959 I SemWifiLinkQualityMonitor: Link Qos query: inf. ms / 0 Mbps
+09-08 15:48:22.857  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:22.857  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:22.857  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:22.857  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:22.858  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:22.858  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:22.858  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:22.858  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:22.858  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:22.858  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:22.995  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:23.099  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42012] accel_sample [-0.191, -0.023,  9.960] 1487032744825323
+09-08 15:48:23.316 18933 18933 I wpa_supplicant: Heartbeat 4420
+09-08 15:48:23.345  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:23.417  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:23.417  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:23.418  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:23.418  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:23.423  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=22D6AA_E, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-87, periodicAdvInt=0x0
+09-08 15:48:23.434  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4187010 72311372 d 956807 153610404 f 0 367822 iot 3550864 0 th 0 0 0 pt 0 inp 0 0 192512.841
+09-08 15:48:23.460  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:23.460  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:23.603  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.046394385]
+09-08 15:48:23.604  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.27469838]
+09-08 15:48:23.604  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8131472]
+09-08 15:48:23.604  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.366354 msecs
+09-08 15:48:23.607  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.248698 msecs
+09-08 15:48:23.609  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.373906 msecs
+09-08 15:48:23.611  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:23.695  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:24.045  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:24.057  8578 12495 I NearbyMediums: Found Fast Ble Advertisements :
+09-08 15:48:24.057  8578 12495 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x50 0x4f 0x59 0x42 0x11 0x32 0xbd 0xa9 0x8e 0x37 0x82 0xf5 0x7f 0xab 0x3f 0xd1 0x4e 0x3e 0x80 0x9c 0xf7 0xa5 ], deviceToken=[ 0x8a 0x96 ], rxAdvertisement=null } : 1 times.
+09-08 15:48:24.057  8578 12495 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x32 0x52 0x42 0x4e 0x11 0x32 0x6f 0xd6 0x60 0xbd 0x85 0xcd 0xbf 0x17 0xe1 0xc1 0x10 0xd0 0xf3 0x67 0xef 0xa8 ], deviceToken=[ 0xd4 0x7b ], rxAdvertisement=null } : 2 times.
+09-08 15:48:24.057  8578 12495 I NearbyMediums: Total 3 fast advertisements from 2 unique advertisers.
+09-08 15:48:24.057  8578 12495 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing, NearbyConnections.TxAdvertisement}
+09-08 15:48:24.110  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.01567714]
+09-08 15:48:24.110  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.5603823]
+09-08 15:48:24.111  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.80322]
+09-08 15:48:24.111  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.080312 msecs
+09-08 15:48:24.113  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.124635 msecs
+09-08 15:48:24.115  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.341354 msecs
+09-08 15:48:24.307  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:24.307  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:24.308  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:24.308  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:24.316  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x0, addressType=1, address=2B8B09_6, primaryPhy=1, secondaryPhy=1, advertisingSid=0x4, txPower=127, rssi=-92, periodicAdvInt=0x0
+09-08 15:48:24.353  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:24.353  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:24.362  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:24.362  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:24.362  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:24.367  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=1D858C_E, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-102, periodicAdvInt=0x0
+09-08 15:48:24.370  8578 12495 I NearbyMediums: This GATT advertisement BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x36 0x34 0x39 0x59 0x11 0x32 0x09 0xea 0x0d 0x95 0xb5 0x89 0xe1 0xe2 0x4d 0x7b 0x25 0x1d 0xb3 0x9a 0xd3 0x4c ], deviceToken=[ 0xd7 0xfd ], rxAdvertisement=null } is a Fast Advertisement and matched UUID 0000fef3-0000-1000-8000-00805f9b34fb in fastAdvertisementServiceUuids map with serviceID NearbySharing
+09-08 15:48:24.371  8578 12565 I NearbyConnections: Found BleAdvertisement [ 0x23 0x36 0x34 0x39 0x59 0x11 0x32 0x09 0xea 0x0d 0x95 0xb5 0x89 0xe1 0xe2 0x4d 0x7b 0x25 0x1d 0xb3 0x9a 0xd3 0x4c ] (with EndpointId 649Y and EndpointInfo [ 0x32 0x09 0xea 0x0d 0x95 0xb5 0x89 0xe1 0xe2 0x4d 0x7b 0x25 0x1d 0xb3 0x9a 0xd3 0x4c ])
+09-08 15:48:24.373  8578 12565 I NearbyConnections: Unable to record discovered endpoint due to null currentDiscoveryPhase
+09-08 15:48:24.373  8578 12565 I NearbyConnections: ClientProxy(103998510) reporting onEndpointFound(649Y)
+09-08 15:48:24.373  8578 12565 I NearbyConnections: ClientProxy(103998510) reporting onEndpointDistanceChanged(649Y, UNKNOWN)
+09-08 15:48:24.377  8578 12622 I NearbySharing: NearbySharing Internal event EndpointDiscovered(endpointId=649Y)
+09-08 15:48:24.395  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:24.403  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:24.403  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:24.553  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:24.616  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.007212512]
+09-08 15:48:24.617  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.24607076]
+09-08 15:48:24.617  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.838938]
+09-08 15:48:24.617  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.270208 msecs
+09-08 15:48:24.619  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.040677 msecs
+09-08 15:48:24.621  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.819375 msecs
+09-08 15:48:24.694  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 6 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:24.696  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 11 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:24.699  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 27 answers, 0 authority, 0 additional from /10.102.92.238:5353
+09-08 15:48:24.745  1387 10966 I sensors-hal: handle_sns_client_event:185, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.179,-0.038,9.976, ar,1, ver,11, pedo,1,e,0,i,2
+09-08 15:48:24.746  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:25.096  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:25.117  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42120] accel_sample [-0.195, -0.023,  9.974] 1487034762653240
+09-08 15:48:25.123  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009190376]
+09-08 15:48:25.123  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.14680587]
+09-08 15:48:25.124  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.92334276]
+09-08 15:48:25.124  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.360625 msecs
+09-08 15:48:25.127  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.524271 msecs
+09-08 15:48:25.128  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.556875 msecs
+09-08 15:48:25.439  1060  1060 D io_stats: !@ Write_top(KB): ynga.farmville3(11277) 12
+09-08 15:48:25.445  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:25.630  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.021006273]
+09-08 15:48:25.630  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.36997658]
+09-08 15:48:25.630  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.89125776]
+09-08 15:48:25.630  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.092448 msecs
+09-08 15:48:25.636  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 4.874167 msecs
+09-08 15:48:25.641  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.806927 msecs
+09-08 15:48:25.642  1734  2957 I SemWifiServiceDetector: NSD results: [0, 1, 2, 0, 0, 1, 1, 1, 0] Traff. type 1 Thr 10
+09-08 15:48:25.644  1734  2960 D SemWifiOptimizer: enable=0 state=0x10 prev=0x10 new=0x00 force=0 mode=0
+09-08 15:48:25.795  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:25.871  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25227, isSameBssidAndFreq true
+09-08 15:48:25.872  1734  2959 I SemWifiLinkQualityMonitor: Link Qos query: inf. ms / 0 Mbps
+09-08 15:48:26.029  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 3 answers, 0 authority, 0 additional from /10.102.92.78:5353
+09-08 15:48:26.030  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 7 answers, 0 authority, 0 additional from /10.102.93.151:5353
+09-08 15:48:26.033  1383  1423 D BatteryDump: wait_for_battery_event : occurred : change@/devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery 
+09-08 15:48:26.045  1383  1423 E BatteryDump: !@new_battery_dump : 4028,811,1500,1712,70,313,313,328,0,304,337,900,0,Charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,10800,0x0,0x10000,0x0,0000,0000,00000000,0,0,0,0,42,3981,6939,990,0,
+09-08 15:48:26.050  1383  1383 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 338
+09-08 15:48:26.052  1734  2716 D BatteryService: Sending ACTION_BATTERY_CHANGED: level:70, status:2, health:2, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:0, voltage:4028, temperature:313, online:19, current_avg:646, ps:false, hvc:false, capacity:280000, current_event:0x0, current_now:878, mcc:0, mcv:0, cc:5040000, present:true, scale:100, technology:Li-ion
+09-08 15:48:26.054  1734  2820 D MotionRecognitionService: [SAR]  onReceive : ACTION_BATTERY_CHANGED, Plugged: 1
+09-08 15:48:26.054  1734  1734 D PhoneWindowManagerExt: ACTION_BATTERY_CHANGED - Level=70, status=2
+09-08 15:48:26.054  1734  2993 I DeviceBatteryInfoService: action: android.intent.action.BATTERY_CHANGED
+09-08 15:48:26.054  1734  2993 I DeviceBatteryInfoService: phone battery level: 70
+09-08 15:48:26.054  1734  2993 I DeviceBatteryInfoService: phone battery status: 2
+09-08 15:48:26.055  1734  1734 D AdaptiveBrightnessLongtermModelBuilder: Received android.intent.action.BATTERY_CHANGED
+09-08 15:48:26.056  3042  3042 D SemBigDataInfoController: Intent: android.intent.action.BATTERY_CHANGED
+09-08 15:48:26.056  1734  1734 D SemWifiApBroadcastReceiver: Received : android.intent.action.BATTERY_CHANGED
+09-08 15:48:26.057  3058  3058 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED
+09-08 15:48:26.059  3058  3058 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=70, mBatteryStatus=CHARGING, mBatteryPlugType=AC, mBatteryPlugged=true, mRemainingChargeTime=4312000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=NOT_DEFINED, mBatterySwellingMode=NONE, mBatteryProtectMode=false]
+09-08 15:48:26.059  3058  3058 I PowerUI : mBootCompleted = true |  mFullyConnected = true
+09-08 15:48:26.059  3058  3058 I PowerUI : BATTERY_HEALTH_CHECK extraHealth=2 mBatteryMiscEvent=65536
+09-08 15:48:26.059  3058  3058 W PowerUI : Plug reason
+09-08 15:48:26.059  3058  3058 W PowerUI : Skip charging animation - by plug status
+09-08 15:48:26.059  3058  3058 D PowerUI : priorPlugType = 1 mPlugType = 1 priorBatteryStatus = 2 mBatteryStatus = 2
+09-08 15:48:26.059  3058  3058 W PowerUI : Plug reason
+09-08 15:48:26.059  3058  3058 W PowerUI : Skip charging sound - by plug status
+09-08 15:48:26.059  3058  3058 I PowerUI : oldMisalign : false, curMisalign : false
+09-08 15:48:26.060  3058 10668 D SecPowerUI.Notification: dismissing low battery warning: level=70
+09-08 15:48:26.060  3058 10668 D SecPowerUI.Notification: updateNotification mWarning=false mPlaySound=false
+09-08 15:48:26.060  3058 10668 D SecPowerUI.Notification: SecBatteryStatsSnapshot{batteryLevel=70, currentBatteryMode=0, chargingTime=4312000, chargingType=11, batteryHealth=2, automaticTestMode=false, isHiccupState=false}
+09-08 15:48:26.061  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:26.061  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:26.061  3058  3058 D PowerUI : Battery swelling mode - priorBatterySwellingMode = 0 mBatterySwellingMode = 0 mBatteryStatus = 2
+09-08 15:48:26.061  3058  3058 I PowerUI : mBatteryMiscEvent = 65536
+09-08 15:48:26.061  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:26.061  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:26.062  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:26.062  3058 10668 D SecPowerUI.Notification: 1. restoreScreenTimeOut - saved_value : :
+09-08 15:48:26.062  3058 10668 E SecPowerUI.Notification: no saved value, so we do nothing !!
+09-08 15:48:26.062  3058  3058 D SamsungBatteryMeterDrawable: onBatteryLevelChanged isSomethingChanged: false
+09-08 15:48:26.062  3058  3058 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-08 15:48:26.062  3058  3058 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-08 15:48:26.106  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 2 answers, 0 authority, 0 additional from /10.102.93.126:5353
+09-08 15:48:26.145  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:26.494  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 242, ts=1487036150736781
+09-08 15:48:26.496  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:26.521  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.92.197:5353
+09-08 15:48:26.603  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.026666883]
+09-08 15:48:26.605  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.56606424]
+09-08 15:48:26.606  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.79908323]
+09-08 15:48:26.606  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 2.799479 msecs
+09-08 15:48:26.609  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.464948 msecs
+09-08 15:48:26.611  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.320573 msecs
+09-08 15:48:26.845  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:27.111  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.008931681]
+09-08 15:48:27.112  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6075151]
+09-08 15:48:27.112  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.83639175]
+09-08 15:48:27.112  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.704271 msecs
+09-08 15:48:27.115  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.158542 msecs
+09-08 15:48:27.117  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.817865 msecs
+09-08 15:48:27.118  1734  2957 I SemWifiServiceDetector: NSD results: [1, 1, 1, 0, 1, 1, 1, 1, 0] Traff. type 1 Thr 10
+09-08 15:48:27.119  1734  2960 D SemWifiOptimizer: enable=1 state=0x10 prev=0x00 new=0x10 force=0 mode=0
+09-08 15:48:27.135  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42228] accel_sample [-0.197, -0.020,  9.969] 1487036780481156
+09-08 15:48:27.195  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=241.0
+09-08 15:48:27.441  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4187133 72312596 d 956808 153610408 f 0 367823 iot 3550900 0 th 0 0 0 pt 0 inp 0 0 192516.847
+09-08 15:48:27.546  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:27.620  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.021255918]
+09-08 15:48:27.620  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.8930727]
+09-08 15:48:27.621  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.858696]
+09-08 15:48:27.621  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.238333 msecs
+09-08 15:48:27.623  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.005208 msecs
+09-08 15:48:27.625  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.823906 msecs
+09-08 15:48:27.643  1734  3956 D FreecessController: com.google.android.apps.photos(10254) is important[!isUidIdle]
+09-08 15:48:27.643  1734  3956 D FreecessController: com.Slack(10330) is important[!isUidIdle]
+09-08 15:48:27.895  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:28.054  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.41:5353
+09-08 15:48:28.127  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009536627]
+09-08 15:48:28.128  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.7623083]
+09-08 15:48:28.128  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7525075]
+09-08 15:48:28.128  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.886927 msecs
+09-08 15:48:28.131  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.236198 msecs
+09-08 15:48:28.133  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.016823 msecs
+09-08 15:48:28.245  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:28.363  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.93.84:5353
+09-08 15:48:28.594  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:28.634  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.013342575]
+09-08 15:48:28.635  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.94446576]
+09-08 15:48:28.635  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7849574]
+09-08 15:48:28.636  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.145989 msecs
+09-08 15:48:28.639  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.837344 msecs
+09-08 15:48:28.641  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.480364 msecs
+09-08 15:48:28.890  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25228, isSameBssidAndFreq true
+09-08 15:48:28.893  1734  2959 I SemWifiLinkQualityMonitor: Link Qos Query: 0.024 ms / 328.400 Mbps (413 / 0.005 / 1.000)
+09-08 15:48:28.894  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:28.895  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:28.895  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:28.895  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:28.896  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:28.896  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:28.897  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:28.897  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:28.897  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:28.897  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:28.945  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:29.153  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42336] accel_sample [-0.188, -0.039,  9.976] 1487038798308865
+09-08 15:48:29.190  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.126:5353
+09-08 15:48:29.295  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=243.0
+09-08 15:48:29.443  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:7(3911) 1184 jbd2/sda9-8(1031) 20 android.hardwar(1383) 12
+09-08 15:48:29.609  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.01790032]
+09-08 15:48:29.610  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.813707]
+09-08 15:48:29.610  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.90002847]
+09-08 15:48:29.610  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.150104 msecs
+09-08 15:48:29.613  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.999635 msecs
+09-08 15:48:29.615  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.509427 msecs
+09-08 15:48:29.645  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:29.995  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:30.117  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0074866833]
+09-08 15:48:30.117  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.9428431]
+09-08 15:48:30.118  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8789847]
+09-08 15:48:30.118  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.033698 msecs
+09-08 15:48:30.119  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.672604 msecs
+09-08 15:48:30.121  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.399844 msecs
+09-08 15:48:30.345  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:30.622  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.011178732]
+09-08 15:48:30.623  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6739205]
+09-08 15:48:30.623  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.71437854]
+09-08 15:48:30.623  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.048385 msecs
+09-08 15:48:30.625  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.68224 msecs
+09-08 15:48:30.626  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.339011 msecs
+09-08 15:48:30.695  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:31.045  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:31.066  3058  3058 D SecPowerUI.Notification: showChargingNotice oldChargingType : 11 / currentChargingType : 11, oldChargingTime : 4312000 / mChargingTime : 4312000
+09-08 15:48:31.066  3058  3058 D SecPowerUI.Notification: There is no change about charging status, so return!
+09-08 15:48:31.128  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.014939743]
+09-08 15:48:31.129  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.64704525]
+09-08 15:48:31.129  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.54312974]
+09-08 15:48:31.129  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.316719 msecs
+09-08 15:48:31.132  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.048594 msecs
+09-08 15:48:31.135  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.001615 msecs
+09-08 15:48:31.170  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42444] accel_sample [-0.196, -0.040,  9.967] 1487040816136781
+09-08 15:48:31.395  1387 10941 I sensors-hal: handle_sns_std_sensor_event:148, [SSC_LIGHT] ambient_light lux: 242, ts=1487041050761104
+09-08 15:48:31.396  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:31.446  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4187136 72312612 d 956808 153610408 f 0 367823 iot 3550908 0 th 0 0 0 pt 0 inp 0 0 192520.851
+09-08 15:48:31.641  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.012358272]
+09-08 15:48:31.642  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.9255035]
+09-08 15:48:31.642  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.38094082]
+09-08 15:48:31.642  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 0.99375 msecs
+09-08 15:48:31.646  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.93.84:5353
+09-08 15:48:31.653  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 8.873177 msecs
+09-08 15:48:31.654  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.094375 msecs
+09-08 15:48:31.746  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:31.910  1734  4587 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 25229, isSameBssidAndFreq true
+09-08 15:48:31.913  1734  2959 I SemWifiLinkQualityMonitor: Link Qos query: inf. ms / 0 Mbps
+09-08 15:48:31.914  3058  3058 D KeyguardUpdateMonitor: updateCarrierTextInfo
+09-08 15:48:31.914  3058  3058 D PanelCarrierLabelWriter: setTextForCommon=puppynet CarrierLabelInfo(subId=2147483647, slotId=0, validSub=false, networkName=No service, emergencyOnly=false, hasVoWifiNetworkName=false), airplaneMode=false, hasAtLeastOneVoWifiNetworkName=false, rtl=false
+09-08 15:48:31.914  3058  3058 D PanelCarrierLabelManager: setTextForCommon(text:puppynet)
+09-08 15:48:31.914  3058  3058 D NetworkController.WifiSignalController: notifyListener: visible=true, connected=true, inetCondition=1, isDefault=true, wifiTestReported=false, receivedInetCondition=-1, hideDuringMobileSwitching=false
+09-08 15:48:31.915  3058  3058 D FaceWidgetPagesController: onRefreshCarrierInfo()
+09-08 15:48:31.916  3058  3295 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+09-08 15:48:31.916  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState id=-1
+09-08 15:48:31.916  3058  3058 D FaceWidgetClockRoamManager: isNetworkRoamingState false
+09-08 15:48:31.916  3058  3058 D FaceWidgetClockRoamManager: onRefreshCarrierInfo(pre, now): false, false
+09-08 15:48:31.916  3058  3058 D FaceWidgetClockPage: onRefreshCarrierInfo : isChanged false mIsRoaming false
+09-08 15:48:31.933  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:31.933  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:31.934  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:31.934  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:31.945  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x10, addressType=1, address=0FBBE9_6, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-96, periodicAdvInt=0x0
+09-08 15:48:31.984  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:31.984  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:32.046  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.59:5353
+09-08 15:48:32.095  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:32.135  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:32.445  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:32.571  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 2 answers, 0 authority, 0 additional from /10.102.93.138:5353
+09-08 15:48:32.612  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.024878442]
+09-08 15:48:32.612  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6556413]
+09-08 15:48:32.613  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.46678978]
+09-08 15:48:32.613  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.265886 msecs
+09-08 15:48:32.615  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.587292 msecs
+09-08 15:48:32.616  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.436511 msecs
+09-08 15:48:32.666  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 1 answers, 0 authority, 0 additional from /10.102.93.121:5353
+09-08 15:48:32.766  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.93.17:5353
+09-08 15:48:32.797  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:33.118  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.01297074]
+09-08 15:48:33.118  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.924]
+09-08 15:48:33.118  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.7545173]
+09-08 15:48:33.119  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.301198 msecs
+09-08 15:48:33.121  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.210521 msecs
+09-08 15:48:33.123  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.330261 msecs
+09-08 15:48:33.145  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:33.188  1387 11595 I sensors-hal: handle_sns_client_event:552, [0][42552] accel_sample [-0.218, -0.029,  9.958] 1487042833964490
+09-08 15:48:33.327 18933 18933 I wpa_supplicant: Heartbeat 4421
+09-08 15:48:33.449  1060  1060 D io_stats: !@   8,0 r 3407414 95918725 w 4187256 72314148 d 956808 153610408 f 0 367823 iot 3550932 0 th 0 0 0 pt 0 inp 0 0 192522.854
+09-08 15:48:33.449  1060  1060 D io_stats: !@ Write_top(KB): kworker/u16:7(3911) 1536 kworker/u16:5(11271) 16
+09-08 15:48:33.486  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 5 answers, 0 authority, 0 additional from /10.102.92.250:5353
+09-08 15:48:33.495  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:33.623  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0047634756]
+09-08 15:48:33.624  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.8578829]
+09-08 15:48:33.624  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.74461997]
+09-08 15:48:33.624  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.250573 msecs
+09-08 15:48:33.626  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.670833 msecs
+09-08 15:48:33.628  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.357865 msecs
+09-08 15:48:33.845  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=242.0
+09-08 15:48:34.018  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+09-08 15:48:34.018  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+09-08 15:48:34.019  1376  5933 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+09-08 15:48:34.019  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+09-08 15:48:34.028  5484  5708 D BtGatt.GattService: onScanResult to scannerId: 4- eventType=0x0, addressType=1, address=2B8B09_6, primaryPhy=1, secondaryPhy=1, advertisingSid=0x4, txPower=127, rssi=-94, periodicAdvInt=0x0
+09-08 15:48:34.061  8578 12622 I NearbyMediums: Found Fast Ble Advertisements :
+09-08 15:48:34.061  8578 12622 I NearbyMediums: BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x50 0x4f 0x59 0x42 0x11 0x32 0xbd 0xa9 0x8e 0x37 0x82 0xf5 0x7f 0xab 0x3f 0xd1 0x4e 0x3e 0x80 0x9c 0xf7 0xa5 ], deviceToken=[ 0x8a 0x96 ], rxAdvertisement=null } : 3 times.
+09-08 15:48:34.061  8578 12622 I NearbyMediums: Total 3 fast advertisements from 1 unique advertisers.
+09-08 15:48:34.061  8578 12622 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing, NearbyConnections.TxAdvertisement}
+09-08 15:48:34.062  8578 12565 I NearbyConnections: Processing lost BlePeripheral BlePeripheral{advertisement=BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x32 0x52 0x42 0x4e 0x11 0x32 0x6f 0xd6 0x60 0xbd 0x85 0xcd 0xbf 0x17 0xe1 0xc1 0x10 0xd0 0xf3 0x67 0xef 0xa8 ], deviceToken=[ 0xd4 0x7b ], rxAdvertisement=null }, dctAdvertisement=null, address=null, psm=0, deviceToken=<ByteString@702b509 size=2 contents="\324{">, isSecondProfile=false, rxInstantConnectionAdv=null}.
+09-08 15:48:34.063  8578 12565 I NearbyConnections: Lost BleEndpoint for BlePeripheral BlePeripheral{advertisement=BleAdvertisement { version=2, socketVersion=2, isFast=true, serviceIdHash=null, data=[ 0x23 0x32 0x52 0x42 0x4e 0x11 0x32 0x6f 0xd6 0x60 0xbd 0x85 0xcd 0xbf 0x17 0xe1 0xc1 0x10 0xd0 0xf3 0x67 0xef 0xa8 ], deviceToken=[ 0xd4 0x7b ], rxAdvertisement=null }, dctAdvertisement=null, address=null, psm=0, deviceToken=<ByteString@702b509 size=2 contents="\324{">, isSecondProfile=false, rxInstantConnectionAdv=null} (with EndpointId 2RBN and EndpointInfo [ 0x32 0x6f 0xd6 0x60 0xbd 0x85 0xcd 0xbf 0x17 0xe1 0xc1 0x10 0xd0 0xf3 0x67 0xef 0xa8 ]).
+09-08 15:48:34.063  8578 12565 I NearbyConnections: Unable to record lost endpoint due to null currentDiscoveryPhase
+09-08 15:48:34.065  1376  5933 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+09-08 15:48:34.065  1376  5933 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+09-08 15:48:34.065  8578 12565 I NearbyConnections: ClientProxy(103998510) reporting onEndpointLost(2RBN)
+09-08 15:48:34.067  8578 12495 I NearbySharing: NearbySharing Internal event EndpointLost(endpointId=2RBN)
+09-08 15:48:34.085  1387 10966 I sensors-hal: handle_sns_client_event:185, auto_rotation_debug_2 mode,255, type,1,0 acc,-0.167,-0.014,9.976, ar,1, ver,11, pedo,1,e,0,i,2
+09-08 15:48:34.128  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.005784649]
+09-08 15:48:34.129  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.6709528]
+09-08 15:48:34.129  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.8149342]
+09-08 15:48:34.129  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 1.261198 msecs
+09-08 15:48:34.131  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.947552 msecs
+09-08 15:48:34.134  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 2.10875 msecs
+09-08 15:48:34.195  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=43.0
+09-08 15:48:34.215  1376  5775 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+09-08 15:48:34.530  1734  2839 D InputReader: Btn_touch(2): value=1 when=192523.936987
+09-08 15:48:34.531  1734  2839 I InputReader: Touch event's action is 0x0 (id=9, t=0) [pCnt=1, s=0.3449 ] when=192523.936987
+09-08 15:48:34.538  1734  2838 I InputDispatcher: Delivering touch to (11301): action: 0x0, f=0x0, d=0, 'c86d039', t=1 +(0,1600)
+09-08 15:48:34.543  1734  2257 I GestureDetector: obtain mCurrentDownEvent. id: 137026440 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:203 com.android.server.wm.PointerEventDispatcher.onInputEvent:53 android.view.InputEventReceiver.dispatchInputEvent:295 
+09-08 15:48:34.543  1734  2257 I GestureDetector: obtain mCurrentDownEvent. id: 137026440 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:53 android.view.InputEventReceiver.dispatchInputEvent:295 
+09-08 15:48:34.546  1734  2838 D PowerManagerService: [api] userActivityFromNative :  (event: 2 flags: 0 displayId: 0) eventTime = 192523936
+09-08 15:48:34.549  1734  2838 D PowerManagerService: UserActivityStateListenerState: 1
+09-08 15:48:34.550  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=169.0
+09-08 15:48:34.550 11301 11301 I ViewRootImpl@aab97bd[GameBooster Lock Screen]: ViewPostIme pointer 0
+09-08 15:48:34.551 11301 11301 I GameTools: LockScreenManager: onRootViewActionDown
+09-08 15:48:34.551 11301 11301 I GameTools: LockScreenManager: cancelFPSLockReservation
+09-08 15:48:34.553 11301 11301 I GameTools: GosQueryUtil: bind::already bounded
+09-08 15:48:34.553  3344  3344 I TouchInteractionService: createGestureState, gestureId : 580
+09-08 15:48:34.553  3344  3344 I TopTaskTracker: getCachedTopTask : filterOnlyVisibleRecents = false
+09-08 15:48:34.553  1734  2257 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 1033216229
+09-08 15:48:34.553  1734  2257 I GestureDetector: obtain mCurrentMotionEventRaw. action: 2 id: 1033216229
+09-08 15:48:34.553 11301 11301 I GameTools: LockScreenManager: showDescription
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector: Schedule to change allowedModes=baseModeId=1 allowGroupSwitching=false primaryRefreshRateRange=[48 120] appRequestRefreshRateRange=[48 120], displayId=0
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:  -1:
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:    PRIORITY_REFRESH_RATE_MODE -> Vote{width=-1, height=-1, minRefreshRate=48.0, maxRefreshRate=120.0, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:    PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> Vote{width=-1, height=-1, minRefreshRate=0.0, maxRefreshRate=120.0, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:    PRIORITY_USER_SETTING_MIN_REFRESH_RATE -> Vote{width=-1, height=-1, minRefreshRate=0.0, maxRefreshRate=Infinity, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS mAlwaysRespectAppRequest: false
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:  SettingObserver mRefreshRateModeByDisplayToken
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:   DisplayToken: android.os.BinderProxy@682fa0b, RefreshRateMode: REFRESH_RATE_MODE_SEAMLESS
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector: 
+09-08 15:48:34.554  1734  2259 I DisplayModeDirector:  BrightnessObserver mPassive=false, mLfdScalability=0, mRequestedPassivefalse, mBrightness: 218, mAmbientLux: 169.0, mIsWirelessCharging=false
+09-08 15:48:34.554 11301 11301 I GameTools: LockScreenManager: updateBatteryText - 70%
+09-08 15:48:34.555  3344  3344 I TopTaskTracker: getCachedTopTask : tasks = [TaskInfo{userId=0 taskId=607 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.zynga.farmville3/com.unity3d.player.UnityPlayerActivity } baseActivity=ComponentInfo{com.zynga.farmville3/com.unity3d.player.UnityPlayerActivity} topActivity=ComponentInfo{com.zynga.farmville3/com.unity3d.player.UnityPlayerActivity} origActivity=null realActivity=ComponentInfo{com.zynga.farmville3/com.unity3d.player.UnityPlayerActivity} numActivities=1 lastActiveTime=1486246211 supportsSplitScreenMultiWindow=false supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 maxWidth=0 maxHeight=0 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@70ce558} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{86ea6b1 com.unity3d.player.UnityPlayerActivity} launchCookies=[com.android.launcher3.util.ObjectWrapper@bcd1796] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden originallySupportedSplitScreen=false hasWallpaper=false isTopTransparentActivity=false topActivityInFixedAspectRatio=false topActivityInDisplayCompat=false topActivityInBoundsCompat=false topActivityBounds=null singleTapFromLetterbox=false rootAffinity=10391:com.zynga.farmville3 CoverLauncherWidgetTask=false isTopTaskInStage=false}, TaskInfo{userId=0 taskId=546 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.sec.android.app.launcher/.activities.LauncherActivity } baseActivity=ComponentInfo{com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} topActivity=ComponentInfo{com.sec.android.app.launcher/com.android.launcher3.uioverrides.QuickstepLauncher} origActivity=ComponentInfo{com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity} realActivity=ComponentInfo{com.sec.android.app.launcher/com.android.launcher3.uioverrides.QuickstepLauncher} numActivities=1 lastActiveTime=1486245031 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=2 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=0 maxHeight=0 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@786ef17} topActivityType=2 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{416ff04 com.sec.android.app.launcher.activities.LauncherActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=LocusId[17_chars] displayAreaFeatureId=1 cameraCompatControlState=hidden originallySupportedSplitScreen=true hasWallpaper=true isTopTransparentActivity=true topActivityInFixedAspectRatio=false topActivityInDisplayCompat=false topActivityInBoundsCompat=false topActivityBounds=null singleTapFromLetterbox=false rootAffinity=10117:com.sec.android.app.launcher.activities.LauncherActivity CoverLauncherWidgetTask=false isTopTaskInStage=false}, TaskInfo{userId=0 taskId=601 displayId=0 isRunning=true baseIntent=Intent { act=android.settings.WIFI_SETTINGS flg=0x14000000 cmp=com.android.settings/.Settings$WifiSettingsActivity } baseActivity=ComponentInfo{com.android.settings/com.android.settings.homepage.DeepLinkHomepageActivity} topActivity=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} origActivity=null realActivity=ComponentInfo{com.android.settings/com.android.settings.Settings$WifiSettingsActivity} numActivities=2 lastActiveTime=1038091286 supportsSplitScreenMultiWindow=true supportsMultiWindow=
+09-08 15:48:34.556  3344  3344 I GestureState: updateRunningTask, runningTask : 607, previousRunningTask : null
+09-08 15:48:34.556  3344  3344 W RecentsAnimationDeviceState: canStartSystemGesture, return false by !canStartWithNavHidden
+09-08 15:48:34.556  3344  3344 I TouchInteractionService: newConsumer, canStartSystemGesture : false
+09-08 15:48:34.556  3344  3344 I TouchInteractionService: newConsumer, base : com.android.quickstep.inputconsumers.ResetGestureInputConsumer@123a7c8
+09-08 15:48:34.557  3344  3344 I TwoFingerGestureInputConsumer: TwoFingerGestureInputConsumer
+09-08 15:48:34.557  3344  3344 I TouchInteractionService: onInputEvent, inputConsumer = com.android.quickstep.inputconsumers.TwoFingerGestureInputConsumer@d9480
+09-08 15:48:34.558  3344  3344 I HsTaskBooster: tick TASK_BOOST: 3344/800
+09-08 15:48:34.559 11301 11301 I GameTools: LockScreenManager: updateClockText: 3:48 Mon, 8 September
+09-08 15:48:34.561  1734  2259 D LocalDisplayAdapter: setDesiredDisplayModeSpecsAsync : defaultConfig=0 primaryRefreshRateRange=[48 120] appRequestRefreshRateRange=[48 120]
+09-08 15:48:34.561  1521  1521 I DisplayDevice: Display 4630947232161729154 policy changed
+09-08 15:48:34.561  1521  1521 I DisplayDevice: Previous: {{defaultModeId=2, allowGroupSwitching=false, primaryRange=[48.00 Hz, 60.00 Hz], appRequestRange=[48.00 Hz, 60.00 Hz]}}
+09-08 15:48:34.561  1521  1521 I DisplayDevice: Current:  {{defaultModeId=0, allowGroupSwitching=false, primaryRange=[48.00 Hz, 120.00 Hz], appRequestRange=[48.00 Hz, 120.00 Hz]}}
+09-08 15:48:34.561  1521  1521 I DisplayDevice: 1 mode changes were performed under the previous policy
+09-08 15:48:34.561  1521  1521 I SurfaceFlinger: Setting desired display mode specs: {defaultModeId=0, allowGroupSwitching=false, primaryRange=[48.00 Hz, 120.00 Hz], appRequestRange=[48.00 Hz, 120.00 Hz]}
+09-08 15:48:34.561  1521  1521 I Scheduler: DisplayModeChanged : 2
+09-08 15:48:34.559  5051  5051 I SemDvfsHyPerManager: acquire hyper - TABoost/5051@19, type = 1090523139
+09-08 15:48:34.567  1393  1442 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12855004  [5051 / 19]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+09-08 15:48:34.568 11301 11301 I GameTools: GosQueryUtil: setFPSScale : 100
+09-08 15:48:34.569  9997 10012 I GOS:AidlService: getPermissionInfo(), callerUid: 10059
+09-08 15:48:34.570  9997 10012 I GOS:FpsController: requestFpsScaleValue(100, com.samsung.android.game.gametools)
+09-08 15:48:34.570 11301 11301 I GameTools: GosQueryUtil: setFPSScale isSuccessful : true
+09-08 15:48:34.570  9997  9997 I GOS:FpsController: setMinMapFps(): fps: 60
+09-08 15:48:34.570 11301 11301 I GameTools: LockScreenManager: unlockFPSWithGOS:true
+09-08 15:48:34.571  1734  5442 D SGM:GameManager: setTargetFrameRate(), mCurrentUserId: 0, callerUserId: 0
+09-08 15:48:34.572  1521  1664 I SurfaceFlinger: DFS = 60 
+09-08 15:48:34.572  1734  5442 D SGM:DatabaseHelper: addActionLog(), tag: SET_DFS
+09-08 15:48:34.572  1734  5442 D SGM:DatabaseHelper: addActionLog(), msg: FPS: 60, successful: true
+09-08 15:48:34.578  1734  5442 D SGM:DatabaseHelper: addActionLog(), delete log data to avoid overflow, id: 15196
+09-08 15:48:34.578  1734  5442 D SGM:DatabaseHelper: addActionLog(), ret: 15696
+09-08 15:48:34.582  1521  1521 I DisplayDevice: [Display 4630947232161729154 (internal, primary, "")] ActiveConfigToHWC, ID : 0
+09-08 15:48:34.582  1521  1521 I LayerHistory: SurfaceView[com.zynga.farmville3/com.unity3d.player.UnityPlayerActivity]@0(BLAST)#4575 Max (can't resolve refresh rate)
+09-08 15:48:34.583  1521  1521 I SurfaceFlinger: Touch - choose 120.00 Hz
+09-08 15:48:34.585  1407  1661 I SDM     : HWCDisplay::SubmitDisplayConfig: [DispConfigs] config 2 => 0, hs_mode 1 => 1
+09-08 15:48:34.586  1407  1661 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] check hs_mode 1
+09-08 15:48:34.586  1407  1661 I SDM     : HWDeviceDRM::SetDisplaySwitchMode: [DispConfigs] Set mode index:0 1600x2560x120xvidNS, hs_mode(1), found_mode(0)
+09-08 15:48:34.586  1407  1661 I SDM     : HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1600x2560-1 for Peripheral
+09-08 15:48:34.586  1407  1661 I SDM     : HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 2 to 0
+09-08 15:48:34.597  1521  1644 I VSyncReactor: Current= 60, TransitioningTo= 120, hwcPeriod= 120
+09-08 15:48:34.600  1521  1521 I Scheduler: DisplayModeChanged : 0
+09-08 15:48:34.601  1734  2259 D LocalDisplayAdapter: updateActiveModeLocked for d=4630947232161729154, mActiveModeId=1, mActiveSfDisplayMode=DisplayMode{id=0, width=1600, height=2560, xDpi=274.594, yDpi=275.525, refreshRate=120.00001, appVsyncOffsetNanos=100000, presentationDeadlineNanos=13333332, group=1600}
+09-08 15:48:34.602  1734  2259 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4630947232161729154", 1600 x 2560, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1600, height=2560, fps=120.00001, alternativeRefreshRates=[48.000004, 60.000004, 96.00001]}, {id=2, width=1600, height=2560, fps=96.00001, alternativeRefreshRates=[48.000004, 60.000004, 120.00001]}, {id=3, width=1600, height=2560, fps=60.000004, alternativeRefreshRates=[48.000004, 96.00001, 120.00001]}, {id=4, width=1600, height=2560, fps=48.000004, alternativeRefreshRates=[60.000004, 96.00001, 120.00001]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=450.0, mMaxAverageLuminance=225.00024, mMinLuminance=5.0E-4}, allmSupported false, gameContentTypeSupported false, density 340, 274.594 x 275.525 dpi, appVsyncOff 100000, presDeadline 13333332, touch INTERNAL, rotation 0, type INTERNAL, address {port=130, model=0x40446df8ca940a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.5019608, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=28, center=Point(28, 28)}, RoundedCorner{position=TopRight, radius=28, center=Point(1572, 28)}, RoundedCorner{position=BottomRight, radius=28, center=Point(1572, 2532)}, RoundedCorner{position=BottomLeft, radius=28, center=Point(28, 2532)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+09-08 15:48:34.609  3058  3058 D DisplayLifecycle: updateDisplay id = 0
+09-08 15:48:34.614  1734  1734 D SGM:GameManager: onDisplayChanged. displyId: 0, state: 2
+09-08 15:48:34.615  1734  1734 D AODManagerService: requestReCalToTSP IsSingleTouchMode = false / previousDisplayState = ON
+09-08 15:48:34.615  1734  4011 D LiftUpHandler: [LTW] Stopped already.
+09-08 15:48:34.616  1734  2856 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_LCD_ON
+09-08 15:48:34.622 11301 11450 I GameTools: DreamTools: onDisplayChanged 0
+09-08 15:48:34.623 11301 11450 I GameTools: DreamTools: DEFAULT_DISPLAY changed
+09-08 15:48:34.623 11301 11450 I GameTools: DreamTools: DisplayInfo(width=2560, height=1600, rotation=1, density=2.125, densityDPI=340, dpRes=(1204, 752))
+09-08 15:48:34.630  1521  1644 I VSyncReactor: Current= 120, TransitioningTo= 0, hwcPeriod= 120
+09-08 15:48:34.636  1734  2957 D SemNscXgbMsL1: Probability - Cloud gaming: [0.012412996]
+09-08 15:48:34.636  1734  2957 D SemNscXgbMsL1: Probability - Real time: [0.19402128]
+09-08 15:48:34.636  1734  2957 D SemNscXgbMsL1: Probability - Non real time: [0.79445684]
+09-08 15:48:34.636  1734  2957 D SemNscXgbMsL1: 1 sample inference time: 0.847083 msecs
+09-08 15:48:34.637  1734  2957 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.957292 msecs
+09-08 15:48:34.639  1734  2957 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.596094 msecs
+09-08 15:48:34.641  5051  5051 I SemDvfsHyPerManager: acquire hyper - TABoost/5051@19, type = 1090523139
+09-08 15:48:34.641  1393  1442 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 12855004
+09-08 15:48:34.641  1393  1442 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12855004  [5051 / 19]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+09-08 15:48:34.687  1521  1521 W SurfaceFlinger: previousFrameFence is not signaled. (pendingCount = 1)
+09-08 15:48:34.734  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 4 answers, 0 authority, 0 additional from /10.102.93.151:5353
+09-08 15:48:34.749  5051  5051 I SemDvfsHyPerManager: acquire hyper - TABoost/5051@19, type = 1090523139
+09-08 15:48:34.750  1393  1442 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 12855004
+09-08 15:48:34.750  1393  1442 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12855004  [5051 / 19]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+09-08 15:48:34.813  1734  2899 V serviceDiscovery: [MdnsAdvertiser.wlan0] VERBOSE Parsed packet with transactionId(0): 0 questions, 2 answers, 0 authority, 0 additional from /10.102.93.146:5353
+09-08 15:48:34.858  5051  5051 I SemDvfsHyPerManager: acquire hyper - TABoost/5051@19, type = 1090523139
+09-08 15:48:34.859  1393  1442 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 12855004
+09-08 15:48:34.859  1393  1442 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 12855004  [5051 / 19]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+09-08 15:48:34.894  1734  2259 D DisplayModeDirector: onBrightnessChangedLocked, brightness=218, lux=188.0
