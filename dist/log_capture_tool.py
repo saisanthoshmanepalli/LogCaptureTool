@@ -16,7 +16,7 @@ import requests
 MAX_LOG_SIZE = 5 * 1024 * 1024  # 5 MB
 
 # OTA CONFIG
-APP_VERSION = "1.4.7"
+APP_VERSION = "1.4.8"
 MANIFEST_URL = "https://raw.githubusercontent.com/saisanthoshmanepalli/LogCaptureTool/main/release/manifest.json"
 
 # ---------------- OTA FUNCTIONS ----------------
